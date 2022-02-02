@@ -8,6 +8,7 @@ namespace GenericsMaximum
 {
     internal class PrintMethod
     {
+
         /*Here created same method for every diff data Types.
          *To solve this issue we will use Generic Method in next class.
          */

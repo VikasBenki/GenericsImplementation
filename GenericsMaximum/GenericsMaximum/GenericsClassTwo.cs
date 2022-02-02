@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace GenericsMaximum
 {
-    internal class GenericsClassTwo<T,E>
+    /* In this Generic Class
+     * using 2 Types place holder
+     * T and E
+     * place Holder name can be AnyThing.
+     */
+    internal class GenericClassTwo<T, E>
     {
         public T[] array;
 
@@ -14,7 +19,7 @@ namespace GenericsMaximum
         /// Initializes a new instance of the <see cref="GenericClass{T}"/> class.
         /// </summary>
         /// <param name="array">The array.</param>
-        public GenericsClassTwo(T[] array)
+        public GenericClassTwo(T[] array)
         {
             this.array = array;
         }

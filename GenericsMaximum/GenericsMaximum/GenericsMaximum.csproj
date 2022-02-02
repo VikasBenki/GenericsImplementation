@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Findmaximum\FindMaxValue.cs" />
+    <Compile Include="GenericClass.cs" />
+    <Compile Include="GenericMethod.cs" />
+    <Compile Include="GenericsClassTwo.cs" />
+    <Compile Include="PrintMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

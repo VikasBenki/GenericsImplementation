@@ -17,6 +17,7 @@ namespace GenericsMaximum
          * Here T defines data type as per values in parameters.
          * to Fetch data from Array, We need to use For or Foreach loop.
          */
+
         public static void ToPrint<T>(T[] array)
         {
             Console.WriteLine("\nHere Using Generic Method to show all types of Array");
@@ -27,4 +28,6 @@ namespace GenericsMaximum
         }
     }
 }
+
+
 
